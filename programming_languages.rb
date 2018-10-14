@@ -20,5 +20,5 @@ def reformat_languages(languages)
     new_hash[keys][:style] += [:functional] if dup_langs.include?(keys)
   end
 
-p new_hash
+new_hash
 end
